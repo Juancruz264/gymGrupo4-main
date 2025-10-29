@@ -30,8 +30,8 @@
         {
             Volver = new Button();
             label6 = new Label();
-            ABMSuscrip = new Button();
-            ABMCliente = new Button();
+            Ganancias = new Button();
+            Cliente = new Button();
             SuspendLayout();
             // 
             // Volver
@@ -56,31 +56,31 @@
             label6.TabIndex = 43;
             label6.Text = "REPORTES";
             // 
-            // ABMSuscrip
+            // Ganancias
             // 
-            ABMSuscrip.Location = new Point(64, 179);
-            ABMSuscrip.Name = "ABMSuscrip";
-            ABMSuscrip.Size = new Size(293, 81);
-            ABMSuscrip.TabIndex = 47;
-            ABMSuscrip.Text = "Ver ganancias";
-            ABMSuscrip.UseVisualStyleBackColor = true;
+            Ganancias.Location = new Point(64, 179);
+            Ganancias.Name = "Ganancias";
+            Ganancias.Size = new Size(293, 81);
+            Ganancias.TabIndex = 47;
+            Ganancias.Text = "Ver ganancias";
+            Ganancias.UseVisualStyleBackColor = true;
             // 
-            // ABMCliente
+            // Cliente
             // 
-            ABMCliente.Location = new Point(459, 179);
-            ABMCliente.Name = "ABMCliente";
-            ABMCliente.Size = new Size(293, 81);
-            ABMCliente.TabIndex = 46;
-            ABMCliente.Text = "Ver clientes";
-            ABMCliente.UseVisualStyleBackColor = true;
+            Cliente.Location = new Point(459, 179);
+            Cliente.Name = "Cliente";
+            Cliente.Size = new Size(293, 81);
+            Cliente.TabIndex = 46;
+            Cliente.Text = "Ver clientes";
+            Cliente.UseVisualStyleBackColor = true;
             // 
             // Reportes
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(ABMSuscrip);
-            Controls.Add(ABMCliente);
+            Controls.Add(Ganancias);
+            Controls.Add(Cliente);
             Controls.Add(Volver);
             Controls.Add(label6);
             Name = "Reportes";
@@ -94,5 +94,7 @@
         private Label label6;
         private Button ABMSuscrip;
         private Button ABMCliente;
+        private Button Ganancias;
+        private Button Cliente;
     }
 }
